@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class WeatherApi {
-  final String apiKey = '2d1ff4275ada23bad7d7b7c78e9db5ee';
+  final String apiKey = 'key';
   final String baseUrl = 'https://api.openweathermap.org/data/2.5/weather';
 
   Future<Map<String, dynamic>> fetchWeather(String city) async {
