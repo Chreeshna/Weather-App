@@ -1,5 +1,5 @@
 import 'package:bloc/bloc.dart';
-import 'package:weather_app/Widget/weather_api.dart';
+import 'package:weather_app/Weather/Widget/weather_api.dart';
 import 'weather_state.dart';
 
 class WeatherCubit extends Cubit<WeatherState> {

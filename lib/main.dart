@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:weather_app/cubit/theme_cubit.dart';
-import 'package:weather_app/cubit/weather_cubit.dart';
-import 'package:weather_app/cubit/weather_screen.dart';
+import 'package:weather_app/Weather/cubit/theme_cubit.dart';
+import 'package:weather_app/Weather/cubit/weather_cubit.dart';
+import 'package:weather_app/Weather/cubit/weather_screen.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
